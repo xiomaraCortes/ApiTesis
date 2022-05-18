@@ -2,10 +2,11 @@ import sql from "mssql";
 
 export async function conecion(){
     var config = {
-        server: '192.168.0.29',
+        server: 'localhost',
         database:'LovePet',
         user:'sa', 
         password:'_falso00',
+        
         // port:1433,
         drive:'tedios',
         stream:false,

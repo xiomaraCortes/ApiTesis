@@ -16,7 +16,7 @@ const mssql_1 = __importDefault(require("mssql"));
 function conecion() {
     return __awaiter(this, void 0, void 0, function* () {
         var config = {
-            server: '192.168.0.29',
+            server: 'localhost',
             database: 'LovePet',
             user: 'sa',
             password: '_falso00',
